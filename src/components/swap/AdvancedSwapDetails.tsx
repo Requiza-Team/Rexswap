@@ -92,7 +92,6 @@ export function AdvancedSwapDetails({ trade }: AdvancedSwapDetailsProps) {
               </RowBetween>
             </>
           )}
-          
         </>
       )}
     </AutoColumn>

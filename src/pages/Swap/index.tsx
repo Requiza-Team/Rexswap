@@ -298,10 +298,8 @@ export default function Swap() {
         tokens={importTokensNotInDefault}
         onConfirm={handleConfirmTokenWarning}
       />
-      <TYPE.largeHeader style={{ margin: '1.2rem', fontFamily:'cursive' }}>
-                  Rexswap
-                </TYPE.largeHeader>
-      <TYPE.mediumHeader style={{ margin: '0.5rem'}}>Swap your tokens today</TYPE.mediumHeader>
+      <TYPE.largeHeader style={{ margin: '1.2rem', fontFamily: 'cursive' }}>Rexswap</TYPE.largeHeader>
+      <TYPE.mediumHeader style={{ margin: '0.5rem' }}>Swap your tokens today</TYPE.mediumHeader>
       <SwapPoolTabs active={'swap'} />
       <AppBody>
         <SwapHeader />

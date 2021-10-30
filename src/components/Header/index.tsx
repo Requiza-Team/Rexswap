@@ -142,7 +142,7 @@ const UNIWrapper = styled.span`
   width: fit-content;
   position: relative;
   cursor: pointer;
-  display:none;
+  display: none;
 
   :hover {
     opacity: 0.8;
@@ -345,14 +345,10 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledNavLink id={`stake-nav-link`} to={'/uni'}>
-            
-          </StyledNavLink>
-          <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
-            
-          </StyledNavLink>
+          <StyledNavLink id={`stake-nav-link`} to={'/uni'}></StyledNavLink>
+          <StyledNavLink id={`stake-nav-link`} to={'/vote'}></StyledNavLink>
           <StyledExternalLink id={`stake-nav-link`} href={'https://uniswap.info'}>
-         <span style={{ fontSize: '11px' }}></span>
+            <span style={{ fontSize: '11px' }}></span>
           </StyledExternalLink>
         </HeaderLinks>
       </HeaderRow>

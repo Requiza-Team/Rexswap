@@ -86,7 +86,6 @@ const MenuItem = styled(ExternalLink)`
 const CODE_LINK = 'https://github.com/Requiza-Team/Rexswap'
 
 export default function Menu() {
-
   const node = useRef<HTMLDivElement>()
   const open = useModalOpen(ApplicationModal.MENU)
   const toggle = useToggleModal(ApplicationModal.MENU)
@@ -118,7 +117,7 @@ export default function Menu() {
             Medium
           </MenuItem>
           <MenuItem id="link" href="https://requiza.io/#about">
-            <Info size={14}/>
+            <Info size={14} />
             About Requiza
           </MenuItem>
         </MenuFlyout>
